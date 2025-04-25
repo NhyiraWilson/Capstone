@@ -1,0 +1,161 @@
+body {
+    background-image: url('../assets/images/cono.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 100vh;
+    margin: 0;
+  }
+  .top-banner {
+    background-color: burlywood;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    word-spacing: 1px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .login-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-top: 10px;
+  }
+  input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  button {
+    padding: 10px;
+    background-color: burlywood;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  #error-message {
+    color: red;
+    margin-top: 15px;
+  }
+  .sign-up {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .sign-up a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  .sign-up a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-container {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .register-container label {
+    display: flex;
+    margin-top: 10px;
+  }
+  .register-container input,
+  .register-container select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .register-container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .register-container button:hover {
+    background-color: #2980b9;
+  }
+  .login-link {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .login-link a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  header {
+    background-color: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+  background: burlywood;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+  z-index: 10;
+  }
+  
+  .header-container{
+  margin: auto;
+  text-align: center;
+  background-color:black;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  }
+  
+  .logo{
+  float:left;
+  margin-left: 30px;
+  height: 30px;
+  cursor: pointer;
+  } @media (max-width: 768px)  {
+  .logo{ margin-left: 5px;}
+  }
+  
+  nav ul {
+  display: flex;
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+  margin-top: -2px;
+  text-align: right;
+  } 
+  
+  nav li {
+  display: inline-block;
+  }
+  
+  nav li a { 
+  color: rgb(209, 209, 209);    
+  height: 50px;
+  }
